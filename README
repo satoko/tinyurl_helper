@@ -1,0 +1,20 @@
+TinyurlHelper
+=============
+Create a link tag of the TinyURL created by TinyURL's API with the given URL.
+
+Example
+=======
+
+1. Install TinyurlHelper plugin
+
+  ./script/plugin install http://svn.s21g.com/public/rails/plugins/tinyurl_helper
+
+2. Include this helper in application_helper
+
+  include TinyurlHelper
+
+3. And in your view:
+
+  <%= link_to_tinyurl "http://www.yahoo.co.jp" %>
+
+Copyright (c) 2008 Satoko Hibi, released under the MIT license
